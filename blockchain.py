@@ -91,7 +91,7 @@ class Blockchain:
                     max_length = length
                     new_chain = chain
 
-        # Replace our chain if we discovered a new, valid chain longer than ours
+        # Replace our chain if we discovered a new, valid chain longer than ours EX
         if new_chain:
             self.chain = new_chain
             return True
